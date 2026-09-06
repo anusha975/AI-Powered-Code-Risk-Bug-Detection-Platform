@@ -2,7 +2,9 @@
  * API Service Client for the Privacy-Preserving Security Platform.
  */
 
-const API_BASE_URL = '/api';
+const API_BASE_URL = import.meta.env.VITE_API_URL
+  ? `${import.meta.env.VITE_API_URL.replace(/\/+$/, '')}/api`
+  : '/api';
 
 /**
  * Fetch live system health status and telemetry from backend.

@@ -61,20 +61,7 @@ Modern software teams increasingly rely on cloud-hosted LLM assistants for code 
 
 ---
 
-## 3. Core Modules & Capabilities
 
-- **Module 1: Core Foundation & Health Telemetry**: FastAPI backend, PostgreSQL session handling, and real-time health telemetry.
-- **Module 2: Secure Code Ingestion Layer**: Multi-language detection (`.py`, `.java`, `.js`, `.ts`), path traversal sanitization, binary header validation, and transient memory cleanup.
-- **Module 3: Secret Detection & Redaction Engine**: Shannon entropy analysis ($H(X) \ge 3.8$) and multi-pattern regex matching for AWS, OpenAI, GitHub, Stripe, and Database credentials.
-- **Module 4: Local Static Code Analysis Engine**: Zero-execution Python AST visitor and Bandit SAST analyzer.
-- **Module 5: ML Risk & Vulnerability Predictor**: 5-stage Scikit-Learn `RandomForestRegressor` and deterministic severity rule floors.
-- **Module 6: Privacy-Aware AI Analysis Layer**: Context minimization pipeline reducing code exposure surface by over 98.5%.
-- **Module 7: AI Developer Remediation Engine**: Tripartite epistemic response format (`DETECTED FACT`, `AI INTERPRETATION`, `RECOMMENDATION`).
-- **Module 8: Private AI & Local LLM Support**: Native support for on-premise Ollama and OpenAI-compatible vLLM endpoints with air-gapped zero-egress guarantees.
-- **Module 9: Engineering Knowledge RAG**: In-memory dense vector search over curated security standards, CWE guidelines, and incident post-mortems.
-- **Module 10: GitHub Pull Request Security Scanner**: Passive, non-cloning PR diff scanner with in-memory PAT lifecycle protection.
-- **Module 11: Professional Engineering Security Dashboard**: 9 comprehensive views with live telemetry session store.
-- **Module 12: Authentication, Authorization & Security Audit**: NIST SP 800-63B PBKDF2 password hashing, PyJWT tokens, RBAC (`ADMIN` vs `DEVELOPER`), rate limiting, security defense headers, and zero-leak audit logging.
 
 ---
 
